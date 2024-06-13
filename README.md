@@ -49,3 +49,6 @@ flask --app board run # Optional --port YOURPORT
 ```
 http://localhost:YOURPORT/
 ```
+
+### Note
+- Tested on Unix Systems.
