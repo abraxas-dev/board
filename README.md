@@ -25,10 +25,10 @@ cd ./board
 ```
 3. Create and activate a virtual environment:
 ```
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
-4. Install the dependencies:
+4. Install the dependencies
 ```
 pip install -r requirements.txt
 ```
