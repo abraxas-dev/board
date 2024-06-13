@@ -34,19 +34,18 @@ pip install -r requirements.txt
 ```
 5. Create a .env file in the project root directory with the following content:
 ```
-FLASK_SECRET_KEY="your secret key"
+FLASK_SECRET_KEY="your secret key" # Must have letters and digits !
 FLASK_DATABASE=board.sqlite
-FLASK_APP=app.py
 ```
-6. Run the application
-```
-flask -app board run (Optional : --port 8000)
-```
-7. Initialize a database
+6. Initialize a database
 ```
 flask --app board init-db
 ```
+7. Run the application
+```
+flask -app board run # Optional --port YOURPORT
+```
 8. Now open the website
 ```
-http://localhost:(Put your port here)/
+http://localhost:YOURPORT/
 ```
