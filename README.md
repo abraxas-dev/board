@@ -17,11 +17,11 @@ This repository contains a web application built using Flask, Bootstrap, and Jin
 ### Usage
 1. Clone the repository
 ```
-git clone https://github.com/name.git
+git clone https://github.com/abraxas-dev/board.git
 ```
 2. Navigate to the project directory
 ```
-cd your-repo-name
+cd path
 ```
 3. Create and activate a virtual environment:
 ```
@@ -41,4 +41,12 @@ FLASK_APP=app.py
 6. Run the application
 ```
 flask -app board run (Optional : --port 8000)
+```
+7. Initialize a database
+```
+flask --app board init-db
+```
+8. Now open the website
+```
+http://localhost:(Put your port here)/
 ```
