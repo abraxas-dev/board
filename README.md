@@ -43,7 +43,7 @@ flask --app board init-db
 ```
 7. Run the application
 ```
-flask -app board run # Optional --port YOURPORT
+flask --app board run # Optional --port YOURPORT
 ```
 8. Now open the website
 ```
