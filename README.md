@@ -21,7 +21,7 @@ git clone https://github.com/abraxas-dev/board.git
 ```
 2. Navigate to the project directory
 ```
-cd path
+cd ./board
 ```
 3. Create and activate a virtual environment:
 ```
