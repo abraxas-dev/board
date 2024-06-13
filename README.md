@@ -1,18 +1,18 @@
 # Board
-This repository contains a web application built using Flask, Bootstrap, and Jinja templates. The primary purpose of this project was to learn and experiment with these technologies while creating a functional and interactive website.
+This repository contains a web application built using Flask, Bootstrap, and Jinja templates. The primary purpose of this project was to learn and experiment with these technologies while creating a functional and interactive website for my second project - sclask (Web Scrapper).
 
 ## Project Overview
 
 ### Features
-* User Registration and Login: Users can create an account and log in to access the website's features.
-* Number Generation: A new number is generated every 5 minutes.
-* Points System: Users can input the generated number to earn points.
-* Responsive Design: The website uses some Bootstrap for a mobile-friendly, responsive design.
+- **User Registration and Login**: Users can create an account and log in to access the website's features.
+- **Number Generation**: A new number is generated every 5 minutes.
+- **Points System**: Users can input the generated number to earn points.
+- **Responsive Design**: The website uses some Bootstrap for a mobile-friendly, responsive design.
 
 ### Learning Objectives
-* Flask: Understand the basics of Flask, including routing, templates, and user authentication.
-* Bootstrap: Learn how to create a responsive layout and use Bootstrap components.
-* Jinja: Implement Jinja templating for dynamic content rendering.
+- **Flask**: Understand the basics of Flask, including routing, templates, and user authentication.
+- **Bootstrap**: Learn how to create a responsive layout and use Bootstrap components.
+- **Jinja**: Implement Jinja templating for dynamic content rendering.
 
 ### Usage
 1. Clone the repository
