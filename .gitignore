@@ -1,3 +1,9 @@
+# Mac files
+.DS_STORE
+
+# Idea
+.idea/
+
 # Distribution / packaging
 .Python
 build/
