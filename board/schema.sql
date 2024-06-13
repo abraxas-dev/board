@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS user;
+
+CREATE TABLE user (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT UNIQUE NOT NULL,
+  password TEXT NOT NULL,
+  last_number TEXT NOT NULL,
+  last_entry_time TIMESTAMP NOT NULL,
+  points INTEGER NOT NULL
+);

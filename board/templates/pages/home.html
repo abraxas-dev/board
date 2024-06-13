@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock title %}
+
+{% block header %}
+<br>
+  <h1> Home </h1>
+<br>
+{% endblock header %}
+
+{% block content %}
+  {% if g.user %}
+  <title>Random Number</title>
+    <div class="random_number">
+    <p class="lead">Random Number : {{ random_number }}</p>
+  </div>
+  {% else %}
+  <p class="lead">A random number will be displayed here, but only for authorized users!</p>
+  {% endif %}
+
+{% endblock content %}

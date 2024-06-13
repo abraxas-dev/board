@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} Check Number {% endblock %}
+
+{% block header %}
+<br>
+    <h1> Check the number </h1>
+<br>
+{% endblock header %}
+
+{% block content %}
+<br>
+<br>
+    <form method="post">
+        <label for="number">Enter a number:</label>
+        <input type="text" id="number" name="number" required>
+        <button type="submit">submit</button>
+    </form>
+    <br>
+    <br>
+    {% if message %}
+        <p class="lead">{{ message }}</p>
+    {% endif %}
+{% endblock content %}

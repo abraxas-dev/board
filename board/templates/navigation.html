@@ -1,0 +1,26 @@
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-md">
+    <a class="navbar-brand" href="#">Board</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="{{ url_for('pages.home')}}">Home</a>
+        {% if g.user %}
+        <a class="nav-link" href="{{ url_for('pages.profile') }}">Profile</a>
+        <a class="nav-link" href="{{ url_for('pages.check') }}">Check</a>
+        <a class="nav-link" href="{{ url_for('auth.logout') }}">Logout</a>
+        {% else %}
+        <a class="nav-link" href="{{ url_for('auth.login') }}">Log In</a>
+        <a class="nav-link" href="{{ url_for('auth.register') }}">Register</a>
+        {% endif %}
+        <a class="nav-link" href="{{ url_for('pages.about') }}">About</a>
+        {% if g.user %}
+        <a class="nav-link disabled" aria-disabled="true">{{ g.user['username'] }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</nav>
